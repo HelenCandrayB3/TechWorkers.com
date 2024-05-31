@@ -173,6 +173,29 @@
             max-width: 80000px;
             }
     }
+
+CATHERINE
+.custom-box {
+      background-color: #00BBBF; 
+      padding: 20px; 
+      border-radius: 10px;
+      
+      text-align: justify;
+      width: 600px;
+      height: 300px;
+    }
+    .image-box {
+   
+      padding: 10px; 
+      border-radius: 10px; 
+      width: 600px; 
+      height: 300px;
+      margin-right: 100px; 
+    }
+    .image-text-container {
+      display: flex ;
+      align-items: center; 
+    }
  
 HELEN!
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
