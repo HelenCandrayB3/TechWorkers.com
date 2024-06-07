@@ -176,13 +176,14 @@
 
 CATHERINE
 .custom-box {
-      background-color: #00BBBF; 
+      background-color: #0D5772; 
       padding: 20px; 
       border-radius: 10px;
       
       text-align: justify;
-      width: 600px;
-      height: 300px;
+      width: 630px;
+      height: 270px;
+      color: white
     }
     .image-box {
    
@@ -192,6 +193,13 @@ CATHERINE
       height: 300px;
       margin-right: 100px; 
     }
+    .sobre-nosotros {
+  color: #0D5772;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 40px; 
+}
+
     .image-text-container {
       display: flex ;
       align-items: center; 
