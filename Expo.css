@@ -176,14 +176,14 @@
 
 CATHERINE
 .custom-box {
-      background-color: #0D5772; 
-      padding: 20px; 
+      background-color: #0D5772;
+      padding: 20px;
       border-radius: 10px;
-      
       text-align: justify;
       width: 630px;
       height: 270px;
-      color: white
+      color: white;
+      font-family: "Poppins", sans-serif; 
     }
     .image-box {
    
@@ -197,7 +197,8 @@ CATHERINE
   color: #0D5772;
   text-align: center;
   margin-bottom: 10px;
-  font-size: 40px; 
+  font-size: 40px;
+  font-family:"Outfit", sans-serif; 
 }
 
     .image-text-container {
