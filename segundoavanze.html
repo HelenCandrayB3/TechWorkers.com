@@ -1,1 +1,117 @@
+<!--Primera parte-->
+    <section class="software">
+        <div class="c-software">
+            <h3>Cinta Transportadora</h3>
+            <span>--Tecnología y comodidad--</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam iusto praes</p>
+        </div>
+        <img src="imgSA/DiseñoSA.png" alt="Imagen" style="float: right;">
+    </section>
 
+    <!--Segunda parte-->
+    <style>
+    .carrusel{
+        background-image: url(imgSA/Fondo1.png);
+        background-size: cover;
+    }
+    
+    .p-slide {
+        position: relative;
+        width: 754px;
+        height: 292px;
+        border-radius: 50px;
+        margin: 115px auto 2.5;
+    }
+    
+    
+    .p-slide > ul {
+        list-style: none;
+        position: relative;
+        width: 754px;
+        height: 292px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .p-slide > ul > li {
+        overflow: hidden;
+        position: absolute;
+        z-index: 0;
+        left: 377px;
+        top: 147px;
+        width: 0;
+        height: 0;
+        margin: 4px 0 200px;
+        padding: 0;
+        border: 3px solid #FFF;
+        border-bottom: 1 solid;
+        cursor: pointer;
+        background-color: #333;
+    }
+    
+    .p-slide > ul > li > img {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+    }
+    
+
+.carrusel-txt {
+    text-align: right;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: -117%;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #FFF;
+    font-family: 'Outfit';
+    font-size: 2.5rem;
+    margin: 1px;
+}
+ .carrusel-txt p{
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    right: 50%;
+    top: 200%;
+    transform: translateY(-50%);
+    width: 50%;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin: 1.5px;
+ }
+
+    </style>
+    <div class="carrusel">
+    <div class="slide p-slide">
+        <div class="p-prev"></div>
+        <div class="p-next"></div>
+        <ul>
+            <li><img src="imgSA/FTlogo.jpeg" ></li>
+            <li><img src="imgSA/P3B.jpeg" ></li>
+            <li><img src="imgSA/P3B.jpeg" ></li>
+            <li><img src="imgSA/P3B.jpeg" ></li>
+            <li><img src="imgSA/P3B.jpeg" ></li>
+            <li><img src="imgSA/P3B.jpeg" ></li>
+            <li><img src="imgSA/P3B.jpeg" ></li>
+        </ul>
+    
+    <div class="carrusel-txt">
+        <span>Nuestros Programas</span>
+        <p>Estos son unos de los programas que han sido utilizados para el desarrollo de la cinta transportadora</p>
+    </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="hislide/jquery.hislide.js"></script>
+    <script>
+        $('.slide').hiSlide();
+    </script>
